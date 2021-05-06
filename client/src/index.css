@@ -1,0 +1,35 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.pad{
+    margin:50px ;
+    
+}
+.my-flex-center{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.myFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.card .card-action{
+    position: absolute;
+    bottom: 30px;
+}
+.card .card-content{
+   padding: 20px 20px 100px 20px;
+}
+
+.row .col.s5.auth-margin{
+    margin:auto 0; 
+}
+input::-webkit-calendar-picker-indicator {
+    
+    background-repeat: no-repeat;
+    background: url('./img/date.svg');
+}
+input::-webkit-calendar-picker-indicator:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

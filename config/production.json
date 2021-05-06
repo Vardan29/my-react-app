@@ -1,0 +1,7 @@
+{
+    "port":5000,
+    "jwtSecret":"loyloz meymun",
+    "mongoUri":"mongodb+srv://vardan:myfullsackapp2021@cluster0.8pahx.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}
+
